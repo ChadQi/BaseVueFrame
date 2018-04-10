@@ -95,11 +95,8 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    [
-      _c("h1", [_vm._v("首页")]),
-      _vm._v(" "),
-      _c("router-link", { attrs: { to: "/about" } }, [_vm._v("到about去")])
-    ],
+    { staticClass: "bg" },
+    [_c("router-link", { attrs: { to: "/about" } }, [_vm._v("到about去")])],
     1
   )
 }

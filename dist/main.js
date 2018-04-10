@@ -11299,6 +11299,10 @@ var router = new _vueRouter2.default({
 });
 router.beforeEach(function (to, from, next) {
     window.document.title = to.meta.title;
+    next();
+});
+router.afterEach(function (to, from, next) {
+    window.scrollTo(0, 0);
 });
 new _vue2.default({
     el: '#app',

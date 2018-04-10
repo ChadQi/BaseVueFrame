@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>首页</h1>
+    <div class="bg">
+
         <router-link to="/about">到about去</router-link>
     </div>
 </template>
@@ -12,5 +12,7 @@
 </script>
 
 <style scoped>
-
+    .bg{
+        background: url('../images/plogo.png') 0 0 no-repeat;
+    }
 </style>

@@ -1,5 +1,4 @@
 const Routers = [
-
     {
         path: '/index',
         component: (resolve) => require(['./template/index.vue'], resolve),
